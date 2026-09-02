@@ -1,6 +1,6 @@
 package dev.slne.surf.event.data
 
-import dev.slne.surf.api.core.serializer.java.uuid.SerializableUUID
+import dev.slne.surf.api.core.serializer.java.uuid.SerializableStringUUID
 import kotlinx.serialization.Serializable
 import kotlin.time.Instant
 
@@ -10,7 +10,7 @@ data class EventData(
     val description: String,
     val startDate: Instant,
     val endDate: Instant,
-    val gameServerIds: List<SerializableUUID>,
+    val gameServerIds: List<SerializableStringUUID>,
     val playtimeServer: String,
     val stats: EventStats,
     val active: Boolean,

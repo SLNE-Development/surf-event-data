@@ -17,6 +17,24 @@ fun main() {
         println("- ${it.displayName} (${it.startDate} - ${it.endDate})")
     }
 
+    println("Caching Events...")
+
+    runBlocking {
+        EventDataSource.refreshCache()
+    }
+
+    println(
+        "First active event: ${
+            EventDataSource.getActiveEvents().firstOrNull()?.displayName ?: "None"
+        }"
+    )
+    println(
+        "First pending event: ${
+            EventDataSource.getEvents()
+                .firstOrNull { !it.done && !it.active }?.displayName ?: "None"
+        }"
+    )
+
 
     println("Cleaning up...")
     EventDataSource.close()
