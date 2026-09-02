@@ -1,0 +1,20 @@
+{
+  "displayName": "End-Event",
+  "description": "Du bist für 48 Stunden im End eingesperrt. Es gibt nur diese Dimension – keine Overworld, kein Nether!<br>Erkunde neue Strukturen und bekämpfe unbekannte Monster. Diese lassen Items fallen, mit denen du neue, bislang unbekannte Gegenstände herstellen kannst.",
+  "startDate": "2025-06-08T12:00:00Z",
+  "endDate": "2025-06-10T16:00:00Z",
+  "gameServerIds": [
+    "00000000-0000-0000-0000-000000000000"
+  ],
+  "playtimeServer": "Platzhalter",
+  "stats": {
+    "uniquePlayers": 0,
+    "peakPlayers": 0
+  },
+  "associatedContent": [
+    "https://www.youtube.com/watch?v=36eVUWBDtCA"
+  ],
+  "active": false,
+  "done": true,
+  "_placeholderNote": "Nur Platzhalter, noch nicht gepflegt: gameServerIds, playtimeServer, stats.uniquePlayers, stats.peakPlayers"
+}

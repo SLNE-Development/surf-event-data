@@ -1,0 +1,19 @@
+{
+  "displayName": "Test Event",
+  "description": "Dies ist ein Test Event<br>Mit sogar einer neuen Zeile.",
+  "startDate": "2026-01-01T00:00:00Z",
+  "endDate": "2026-01-02T00:00:00Z",
+  "gameServerIds": [
+    "85208009-5cf1-47bc-b839-16b3ee8c097a"
+  ],
+  "playtimeServer": "Test Server",
+  "stats": {
+    "uniquePlayers": 100,
+    "peakPlayers": 200
+  },
+  "associatedContent": [
+    "https://example.com/"
+  ],
+  "active": false,
+  "done": false
+}

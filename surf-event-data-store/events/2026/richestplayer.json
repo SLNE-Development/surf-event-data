@@ -1,0 +1,18 @@
+{
+  "displayName": "RichestPlayer Event",
+  "description": "Du startest gleichzeitig mit 100 anderen Spielern auf einer riesigen Welt und hast 24 Stunden Zeit, um so reich wie möglich zu werden.<br>Ob durch Farmen, Handeln oder das Entdecken wertvoller Ressourcen – jeder Weg zum Vermögen ist möglich.",
+  "startDate": "2026-06-06T15:00:00Z",
+  "endDate": "2026-06-07T15:00:00Z",
+  "gameServerIds": [
+    "00000000-0000-0000-0000-000000000000"
+  ],
+  "playtimeServer": "Platzhalter",
+  "stats": {
+    "uniquePlayers": 0,
+    "peakPlayers": 0
+  },
+  "associatedContent": [],
+  "active": false,
+  "done": true,
+  "_placeholderNote": "Nur Platzhalter, noch nicht gepflegt: gameServerIds, playtimeServer, stats.uniquePlayers, stats.peakPlayers"
+}

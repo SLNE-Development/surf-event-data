@@ -1,0 +1,20 @@
+{
+  "displayName": "Flatworld Event",
+  "description": "Im Flatworld-Event trittst du in einer kompletten Flatworld an. Sowohl die Overworld als auch der Nether und das End sind komplett flach.<br>Die Challenge ist, zusammenzuarbeiten, um an seltene Rohstoffe zu gelangen und am Ende etwas Erstaunliches zu erschaffen.",
+  "startDate": "2024-06-07T08:00:00Z",
+  "endDate": "2024-06-09T08:00:00Z",
+  "gameServerIds": [
+    "00000000-0000-0000-0000-000000000000"
+  ],
+  "playtimeServer": "Platzhalter",
+  "stats": {
+    "uniquePlayers": 0,
+    "peakPlayers": 0
+  },
+  "associatedContent": [
+    "https://www.youtube.com/watch?v=l96KwwMBWzw"
+  ],
+  "active": false,
+  "done": true,
+  "_placeholderNote": "Nur Platzhalter, noch nicht gepflegt: gameServerIds, playtimeServer, stats.uniquePlayers, stats.peakPlayers"
+}

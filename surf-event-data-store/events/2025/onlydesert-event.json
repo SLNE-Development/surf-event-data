@@ -1,0 +1,20 @@
+{
+  "displayName": "OnlyDesert Event",
+  "description": "Du bist in einer scheinbar endlosen Wüste gefangen. Es gibt nur Sand, Staub und glühende Hitze.<br>Erkunde die gefährliche Welt sowie die tödlichen Weiten des Nethers und stelle dich neuen Kreaturen. Sei gespannt, was die Wüste für dich bereithält!",
+  "startDate": "2025-08-16T08:00:00Z",
+  "endDate": "2025-08-17T16:00:00Z",
+  "gameServerIds": [
+    "00000000-0000-0000-0000-000000000000"
+  ],
+  "playtimeServer": "Platzhalter",
+  "stats": {
+    "uniquePlayers": 0,
+    "peakPlayers": 0
+  },
+  "associatedContent": [
+    "https://www.youtube.com/watch?v=KL9KdmLrsm8"
+  ],
+  "active": false,
+  "done": true,
+  "_placeholderNote": "Nur Platzhalter, noch nicht gepflegt: gameServerIds, playtimeServer, stats.uniquePlayers, stats.peakPlayers"
+}
