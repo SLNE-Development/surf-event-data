@@ -20,7 +20,7 @@ internal object EventDataClient {
     private const val GITHUB_OWNER = "SLNE-DEVELOPMENT"
     private const val GITHUB_REPOSITORY = "surf-event-data"
     private const val GITHUB_PATH = "surf-event-data-store/events"
-    private const val GITHUB_BRANCH = "dev"
+    private val GITHUB_BRANCH: String? = null
 
     private val json = Json {
         ignoreUnknownKeys = true
@@ -70,7 +70,13 @@ internal object EventDataClient {
     private suspend fun fetchDirectory(path: String): List<GitHubFile> = coroutineScope {
         val response = runCatching {
             client.get(
-                "https://api.github.com/repos/$GITHUB_OWNER/$GITHUB_REPOSITORY/contents/$path?ref=$GITHUB_BRANCH"
+                buildString {
+                    append("https://api.github.com/repos/$GITHUB_OWNER/$GITHUB_REPOSITORY/contents/$path")
+
+                    GITHUB_BRANCH?.let {
+                        append("?ref=$it")
+                    }
+                }
             )
         }.getOrNull() ?: return@coroutineScope emptyList()
 
