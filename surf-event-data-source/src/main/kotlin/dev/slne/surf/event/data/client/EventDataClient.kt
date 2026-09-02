@@ -4,6 +4,7 @@ import dev.slne.surf.event.data.EventData
 import io.ktor.client.*
 import io.ktor.client.call.*
 import io.ktor.client.engine.okhttp.*
+import io.ktor.client.plugins.*
 import io.ktor.client.plugins.contentnegotiation.*
 import io.ktor.client.request.*
 import io.ktor.client.statement.*
@@ -31,6 +32,10 @@ internal object EventDataClient {
 
         install(ContentNegotiation) {
             json(json)
+        }
+
+        defaultRequest {
+            header(HttpHeaders.UserAgent, "surf-event-data-client")
         }
     }
 
