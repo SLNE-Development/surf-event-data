@@ -1,0 +1,19 @@
+{
+  "displayName": "26.2 Update Event",
+  "description": "???",
+  "startDate": "2026-06-18T16:00:00Z",
+  "endDate": "2026-06-28T18:00:00Z",
+  "gameServerIds": [
+    "???"
+  ],
+  "playtimeServer": "???",
+  "stats": {
+    "uniquePlayers": "???",
+    "peakPlayers": "???"
+  },
+  "associatedContent": [
+    "https://www.youtube.com/watch?v=w3pi2vsqqFI"
+  ],
+  "active": false,
+  "done": true
+}

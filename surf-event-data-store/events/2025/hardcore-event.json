@@ -1,0 +1,19 @@
+{
+  "displayName": "Hardcore-Event",
+  "description": "Im Hardcore-Event hast du nur ein einziges Leben. Wenn du stirbst, scheidest du endgültig aus dem Event aus.<br>Bis zum großen Finale ist PvP deaktiviert, sodass du dich in Ruhe auf den entscheidenden Kampf vorbereiten kannst. Während des Finales verkleinert sich die Worldborder kontinuierlich und PvP wird aktiviert.",
+  "startDate": "2025-06-21T16:00:00Z",
+  "endDate": "2025-06-22T16:00:00Z",
+  "gameServerIds": [
+    "???"
+  ],
+  "playtimeServer": "???",
+  "stats": {
+    "uniquePlayers": "???",
+    "peakPlayers": "???"
+  },
+  "associatedContent": [
+    "https://www.youtube.com/watch?v=qiNBtgdj93U"
+  ],
+  "active": false,
+  "done": true
+}

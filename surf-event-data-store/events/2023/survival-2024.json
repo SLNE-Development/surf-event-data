@@ -1,0 +1,19 @@
+{
+  "displayName": "Survival Season 2024",
+  "description": "Die Survival Season 2024 lief auf Minecraft 1.20 und gab der Community ein ganzes Jahr Zeit, gemeinsam zu bauen, zu farmen und riesige Megabasen zu errichten. Die größten Projekte sind in hunderten Stunden Spielzeit entstanden.<br>Zum Abschluss der Season sind die größten Bauprojekte in einem Video zusammengefasst worden. Mit dem Wechsel auf die nächste Hauptversion wurde die Welt zurückgesetzt und als Map-Download veröffentlicht.",
+  "startDate": "???",
+  "endDate": "???",
+  "gameServerIds": [
+    "???"
+  ],
+  "playtimeServer": "???",
+  "stats": {
+    "uniquePlayers": "???",
+    "peakPlayers": "???"
+  },
+  "associatedContent": [
+    "https://www.youtube.com/watch?v=4JFUiPN2aX4"
+  ],
+  "active": false,
+  "done": true
+}

@@ -1,0 +1,19 @@
+{
+  "displayName": "Survival Season 2023",
+  "description": "Die Survival Season 2023 lief auf Minecraft 1.19 und dauerte fast ein komplettes Jahr. Die Community hatte die ganze Zeit über Platz, gemeinsam zu bauen, zu farmen und riesige Megabasen zu errichten - einige Spieler kamen dabei auf über 2.000 Stunden Spielzeit.<br>Zum Abschluss der Season sind die größten Bauprojekte in einem Video zusammengefasst worden. Mit dem Wechsel auf die nächste Hauptversion wurde die Welt zurückgesetzt und als Map-Download veröffentlicht.",
+  "startDate": "???",
+  "endDate": "???",
+  "gameServerIds": [
+    "???"
+  ],
+  "playtimeServer": "???",
+  "stats": {
+    "uniquePlayers": "???",
+    "peakPlayers": "???"
+  },
+  "associatedContent": [
+    "https://www.youtube.com/watch?v=qIeR1H9HZ38"
+  ],
+  "active": false,
+  "done": true
+}

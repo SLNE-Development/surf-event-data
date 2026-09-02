@@ -1,0 +1,19 @@
+{
+  "displayName": "Bau es – du bekommst es",
+  "description": "Beim BuildIt-Event bauen ausgewählte Teilnehmer auf einem eigenen Plot ein Objekt ihrer Wahl – orientiert am Wert, der ihnen zufällig zugewiesen wird. Es gibt fünf Kategorien mit festen Geldwerten: 20, 50, 100, 250 und 500 Euro.<br>Jeder Teilnehmer hat 90 Minuten Zeit, etwas zu bauen, das diesem Wert entspricht. Anschließend wählt eine Jury aus CastCrafter, LetsHugo und Faister das beste Bauwerk jeder Kategorie – die Gewinner erhalten ihr gebautes Objekt in der realen Welt.",
+  "startDate": "2025-05-04T00:00:00Z",
+  "endDate": "2025-05-04T00:00:00Z",
+  "gameServerIds": [
+    "???"
+  ],
+  "playtimeServer": "???",
+  "stats": {
+    "uniquePlayers": "???",
+    "peakPlayers": "???"
+  },
+  "associatedContent": [
+    "https://www.youtube.com/watch?v=GHD7jjgG6Zg"
+  ],
+  "active": false,
+  "done": true
+}

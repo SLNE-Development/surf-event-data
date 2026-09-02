@@ -1,0 +1,19 @@
+{
+  "displayName": "Skyblock Event",
+  "description": "Im Skyblock-Event findest du dich in einer kompletten Void-Welt wieder. Das Einzige, was du hast, ist eine kleine Insel und ein paar Starter-Items. Wirst du es schaffen, zu überleben?<br>Auf deiner Insel findest du eine Kiste mit nützlichen Items und einen Baum, die dir den Start erleichtern sollen. In den ersten 24 Stunden steht dir mit /trades jede Stunde ein neuer Trade zur Verfügung.",
+  "startDate": "2024-08-01T08:00:00Z",
+  "endDate": "2024-08-03T08:00:00Z",
+  "gameServerIds": [
+    "???"
+  ],
+  "playtimeServer": "???",
+  "stats": {
+    "uniquePlayers": "???",
+    "peakPlayers": "???"
+  },
+  "associatedContent": [
+    "https://www.youtube.com/watch?v=h6RZ1PF8JQE"
+  ],
+  "active": false,
+  "done": true
+}

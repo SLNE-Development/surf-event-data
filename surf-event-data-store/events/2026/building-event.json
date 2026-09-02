@@ -1,0 +1,17 @@
+{
+  "displayName": "Vorbau-Event",
+  "description": "Das Ziel des Events ist es, talentierte Builder für unser Team zu rekrutieren. Dazu veranstalten wir ein Bau-Event, bei dem du die Möglichkeit hast, dein Können unter Beweis zu stellen.",
+  "startDate": "???",
+  "endDate": "???",
+  "gameServerIds": [
+    "???"
+  ],
+  "playtimeServer": "???",
+  "stats": {
+    "uniquePlayers": "???",
+    "peakPlayers": "???"
+  },
+  "associatedContent": [],
+  "active": false,
+  "done": true
+}

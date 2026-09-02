@@ -1,0 +1,17 @@
+{
+  "displayName": "RandomChunks Event",
+  "description": "???",
+  "startDate": "???",
+  "endDate": "???",
+  "gameServerIds": [
+    "???"
+  ],
+  "playtimeServer": "???",
+  "stats": {
+    "uniquePlayers": "???",
+    "peakPlayers": "???"
+  },
+  "associatedContent": [],
+  "active": false,
+  "done": false
+}

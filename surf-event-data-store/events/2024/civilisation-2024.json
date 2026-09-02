@@ -1,0 +1,19 @@
+{
+  "displayName": "Zivilisationsprojekt",
+  "description": "Dieses Event stellt die Spieler in einem intensiven 24-Stunden-Wettbewerb vor spannende Herausforderungen. Drei Fraktionen treten in verschiedenen Biomen (Eis, Flachland, Sumpf/Ödland) gegeneinander an, wobei sie in verschiedenen Kategorien punkten können.<br>Ein Bewertungssystem, das Multiplikatoren und Community-Engagement berücksichtigt, sorgt für ein faires und dynamisches Spielerlebnis.",
+  "startDate": "2024-08-10T12:00:00Z",
+  "endDate": "2024-08-11T12:00:00Z",
+  "gameServerIds": [
+    "???"
+  ],
+  "playtimeServer": "???",
+  "stats": {
+    "uniquePlayers": "???",
+    "peakPlayers": "???"
+  },
+  "associatedContent": [
+    "https://www.youtube.com/watch?v=q-LH1eAgnMs"
+  ],
+  "active": false,
+  "done": true
+}

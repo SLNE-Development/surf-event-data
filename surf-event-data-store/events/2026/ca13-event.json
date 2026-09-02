@@ -1,0 +1,17 @@
+{
+  "displayName": "CraftAttack-Schiff-Bau-Event",
+  "description": "Deine Kreativität ist gefragt! Bei diesem Event kannst du Heiko beim Bau seines Schiffes in CraftAttack 13 unterstützen. Entwirf eigene Container für das Schiff und bringe zusätzlich Ideen für kleinere Details auf dem Deck ein, beispielsweise einen Gabelstapler.<br>Vielleicht greift Heiko am Ende genau deinen Entwurf auf und setzt ihn in CraftAttack 13 um. Am Spawn kannst du dir das Schiff aus nächster Nähe ansehen und Inspiration sammeln.",
+  "startDate": "2026-08-07T00:00:00Z",
+  "endDate": "???",
+  "gameServerIds": [
+    "???"
+  ],
+  "playtimeServer": "???",
+  "stats": {
+    "uniquePlayers": "???",
+    "peakPlayers": "???"
+  },
+  "associatedContent": [],
+  "active": false,
+  "done": true
+}

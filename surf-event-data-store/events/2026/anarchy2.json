@@ -1,0 +1,19 @@
+{
+  "displayName": "Anarchy 2.0",
+  "description": "Das Anarchy-Event ist ein Event, bei dem es darum geht, in einer Welt ohne Regeln zu überleben. Das Event dauert 7 Tage und es können mindestens 100 Spieler gleichzeitig auf der Welt spielen.<br>Das Ziel ist es, so lange wie möglich zu überleben und die Welt zu erkunden. Am 7. Tag startet das Finale, bei dem der letzte überlebende Spieler gewinnt.",
+  "startDate": "2026-07-11T14:00:00Z",
+  "endDate": "2026-07-18T18:00:00Z",
+  "gameServerIds": [
+    "???"
+  ],
+  "playtimeServer": "???",
+  "stats": {
+    "uniquePlayers": "???",
+    "peakPlayers": "???"
+  },
+  "associatedContent": [
+    "https://www.youtube.com/watch?v=g_QeJj-LVHU"
+  ],
+  "active": false,
+  "done": true
+}

@@ -1,0 +1,19 @@
+{
+  "displayName": "OneBlock Event",
+  "description": "Du startest auf einem einzigen Block, der sich nach jedem Abbau erneuert und mit der Zeit durch Phasen immer abwechslungsreichere Blöcke, Ressourcen und Kreaturen hervorbringt.<br>Baue deine Insel aus, erkunde die gefährlichen Weiten und meistere die Herausforderungen jeder Phase.",
+  "startDate": "2026-02-21T14:00:00Z",
+  "endDate": "2026-03-01T17:00:00Z",
+  "gameServerIds": [
+    "???"
+  ],
+  "playtimeServer": "???",
+  "stats": {
+    "uniquePlayers": "???",
+    "peakPlayers": "???"
+  },
+  "associatedContent": [
+    "https://www.youtube.com/watch?v=xyjAIdb4Aek"
+  ],
+  "active": false,
+  "done": true
+}

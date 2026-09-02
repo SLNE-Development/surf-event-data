@@ -1,0 +1,19 @@
+{
+  "displayName": "XXL Zwergen Hide & Seek Event",
+  "description": "???",
+  "startDate": "???",
+  "endDate": "???",
+  "gameServerIds": [
+    "???"
+  ],
+  "playtimeServer": "???",
+  "stats": {
+    "uniquePlayers": "???",
+    "peakPlayers": "???"
+  },
+  "associatedContent": [
+    "https://www.youtube.com/watch?v=yempsGclPk0"
+  ],
+  "active": false,
+  "done": true
+}

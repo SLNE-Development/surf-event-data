@@ -1,0 +1,19 @@
+{
+  "displayName": "OneChunk Event",
+  "description": "Im OneChunk-Event findest du dich in einer Welt wieder, in der jeder zweite Chunk fehlt. Beim Betreten des Servers spawnst du in deinem eigenen Chunk.<br>Jegliche Blöcke, die außerhalb eines generierten Chunks platziert werden, verschwinden automatisch nach 10 Sekunden. Am Ende des Events ist eine PvP-Phase geplant, in der PvP aktiviert wird.",
+  "startDate": "2024-10-15T08:00:00Z",
+  "endDate": "2024-10-17T08:00:00Z",
+  "gameServerIds": [
+    "???"
+  ],
+  "playtimeServer": "???",
+  "stats": {
+    "uniquePlayers": "???",
+    "peakPlayers": "???"
+  },
+  "associatedContent": [
+    "https://www.youtube.com/watch?v=HH_L3DIL_nk"
+  ],
+  "active": false,
+  "done": true
+}

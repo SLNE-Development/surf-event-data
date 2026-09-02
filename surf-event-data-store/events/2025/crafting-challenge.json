@@ -1,0 +1,17 @@
+{
+  "displayName": "Zukunftsenergie: Minecraft-Wettbewerb",
+  "description": "Baue deine Vision von Zukunftsenergie! Wie gewinnen wir genug saubere Energie für alle? Wie können wir sie speichern, transportieren und verteilen? Wie gestalten wir Häuser, Fabriken und Städte, um Energie bestmöglich zu nutzen?<br>Du kannst allein oder im Team (maximal 5 Personen) teilnehmen, Teilnahmealter ab 12 Jahren. Die besten Einreichungen gewinnen Preise im Wert von 80 bis 300 Euro. Einreichungen und Gewinnabwicklung erfolgen ausschließlich durch das BMFTR.",
+  "startDate": "2025-05-30T00:00:00Z",
+  "endDate": "2025-09-21T00:00:00Z",
+  "gameServerIds": [
+    "???"
+  ],
+  "playtimeServer": "???",
+  "stats": {
+    "uniquePlayers": "???",
+    "peakPlayers": "???"
+  },
+  "associatedContent": [],
+  "active": false,
+  "done": true
+}

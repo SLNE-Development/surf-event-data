@@ -1,0 +1,19 @@
+{
+  "displayName": "Ameisenglas Event",
+  "description": "???",
+  "startDate": "2024-10-09T17:00:00Z",
+  "endDate": "2024-10-10T20:00:00Z",
+  "gameServerIds": [
+    "???"
+  ],
+  "playtimeServer": "???",
+  "stats": {
+    "uniquePlayers": "???",
+    "peakPlayers": "???"
+  },
+  "associatedContent": [
+    "https://www.youtube.com/watch?v=lmCnJNkazes"
+  ],
+  "active": false,
+  "done": true
+}

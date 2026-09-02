@@ -1,0 +1,19 @@
+{
+  "displayName": "Survival Season 2026",
+  "description": "???",
+  "startDate": "2026-03-22T11:00:00Z",
+  "endDate": "???",
+  "gameServerIds": [
+    "???"
+  ],
+  "playtimeServer": "???",
+  "stats": {
+    "uniquePlayers": "???",
+    "peakPlayers": "???"
+  },
+  "associatedContent": [
+    "https://www.youtube.com/watch?v=0wpB6hukGHk"
+  ],
+  "active": true,
+  "done": false
+}

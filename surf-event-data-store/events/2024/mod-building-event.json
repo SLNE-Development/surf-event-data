@@ -1,0 +1,19 @@
+{
+  "displayName": "Mod Bau-Event",
+  "description": "???",
+  "startDate": "???",
+  "endDate": "???",
+  "gameServerIds": [
+    "???"
+  ],
+  "playtimeServer": "???",
+  "stats": {
+    "uniquePlayers": "???",
+    "peakPlayers": "???"
+  },
+  "associatedContent": [
+    "https://www.youtube.com/watch?v=VWo7VNcyvdo"
+  ],
+  "active": false,
+  "done": true
+}

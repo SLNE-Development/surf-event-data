@@ -1,0 +1,19 @@
+{
+  "displayName": "Creative 2.0",
+  "description": "Das letzte Creative-Event liegt ziemlich genau ein halbes Jahr zurück. Seitdem sind Hunderte neue Spieler auf den Server gekommen und es haben sich etliche neue Gruppen gebildet. Daher wird dieses Event noch einmal wiederholt!<br>Diesmal läuft das Event nicht nur 24 Stunden, sondern volle 7 Tage. Schematics sind nicht erlaubt und die Bauhöhe wird auf 1024 Blöcke erhöht.",
+  "startDate": "2025-02-15T15:00:00Z",
+  "endDate": "2025-02-22T15:00:00Z",
+  "gameServerIds": [
+    "???"
+  ],
+  "playtimeServer": "???",
+  "stats": {
+    "uniquePlayers": "???",
+    "peakPlayers": "???"
+  },
+  "associatedContent": [
+    "https://www.youtube.com/watch?v=we_QzyCti8w"
+  ],
+  "active": false,
+  "done": true
+}

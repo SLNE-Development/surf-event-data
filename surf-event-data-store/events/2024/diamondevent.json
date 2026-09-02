@@ -1,0 +1,19 @@
+{
+  "displayName": "Diamond-Event (400k Special)",
+  "description": "Das Diamond-Event ist ein Special zur Feier der 400.000 Abonnenten auf YouTube und Twitch. Das Ziel ist es, gemeinsam mit der Community so schnell wie möglich 400.000 Diamanterze abzubauen.<br>Zu Beginn erhalten alle Spieler ein Starterinventar, das CastCrafter zuvor innerhalb einer Stunde im Stream erfarmt hat. Für jedes abgebaute Diamanterz spendet CastCrafter 0,01 Euro – insgesamt also 4.000 Euro, wenn das Ziel erreicht wird.",
+  "startDate": "???",
+  "endDate": "???",
+  "gameServerIds": [
+    "???"
+  ],
+  "playtimeServer": "???",
+  "stats": {
+    "uniquePlayers": "???",
+    "peakPlayers": "???"
+  },
+  "associatedContent": [
+    "https://www.youtube.com/watch?v=bMH8jEOknGg"
+  ],
+  "active": false,
+  "done": true
+}

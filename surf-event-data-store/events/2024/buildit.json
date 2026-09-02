@@ -1,0 +1,19 @@
+{
+  "displayName": "Bau es – du bekommst es 1.0",
+  "description": "???",
+  "startDate": "???",
+  "endDate": "???",
+  "gameServerIds": [
+    "???"
+  ],
+  "playtimeServer": "???",
+  "stats": {
+    "uniquePlayers": "???",
+    "peakPlayers": "???"
+  },
+  "associatedContent": [
+    "https://www.youtube.com/watch?v=Sh-MqINa48I"
+  ],
+  "active": false,
+  "done": true
+}

@@ -1,0 +1,19 @@
+{
+  "displayName": "Creative Event",
+  "description": "???",
+  "startDate": "???",
+  "endDate": "???",
+  "gameServerIds": [
+    "???"
+  ],
+  "playtimeServer": "???",
+  "stats": {
+    "uniquePlayers": "???",
+    "peakPlayers": "???"
+  },
+  "associatedContent": [
+    "https://www.youtube.com/watch?v=7l1js8HDF8s"
+  ],
+  "active": false,
+  "done": true
+}

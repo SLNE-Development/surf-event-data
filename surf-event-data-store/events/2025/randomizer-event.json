@@ -1,0 +1,19 @@
+{
+  "displayName": "Randomizer Event",
+  "description": "Beim Block-Roulette-Event ist alles anders! Wenn du Blöcke abbaust oder Kreaturen besiegst, erhältst du zufällige Gegenstände anstelle der normalen Beute.<br>Auch Truhen und andere Behälter halten Überraschungen für dich bereit. Mach dich bereit für unvorhersehbare Abenteuer!",
+  "startDate": "2025-07-04T08:00:00Z",
+  "endDate": "2025-07-06T08:00:00Z",
+  "gameServerIds": [
+    "???"
+  ],
+  "playtimeServer": "???",
+  "stats": {
+    "uniquePlayers": "???",
+    "peakPlayers": "???"
+  },
+  "associatedContent": [
+    "https://www.youtube.com/watch?v=h3udWg8eCv0"
+  ],
+  "active": false,
+  "done": true
+}

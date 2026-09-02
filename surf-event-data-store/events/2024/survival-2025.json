@@ -1,0 +1,17 @@
+{
+  "displayName": "Survival Season 2025",
+  "description": "???",
+  "startDate": "2024-09-06T08:00:00Z",
+  "endDate": "2025-08-31T00:00:00Z",
+  "gameServerIds": [
+    "???"
+  ],
+  "playtimeServer": "???",
+  "stats": {
+    "uniquePlayers": "???",
+    "peakPlayers": "???"
+  },
+  "associatedContent": [],
+  "active": false,
+  "done": true
+}

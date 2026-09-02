@@ -1,0 +1,19 @@
+{
+  "displayName": "50.000.000 Blöcke Event (500k Special)",
+  "description": "Dieses Event feiert das Erreichen von 500.000 Abonnenten auf YouTube und Twitch. Ziel des Events ist es, gemeinsam mit der Community 50 Millionen Blöcke abzubauen!<br>Alle Spieler treten gleichzeitig an, um so viele Blöcke wie möglich abzubauen. Dabei können die Spieler verschiedene Meilensteine erreichen und Special Powerups freischalten.",
+  "startDate": "2025-05-24T08:00:00Z",
+  "endDate": "2025-05-25T10:00:00Z",
+  "gameServerIds": [
+    "???"
+  ],
+  "playtimeServer": "???",
+  "stats": {
+    "uniquePlayers": "???",
+    "peakPlayers": "???"
+  },
+  "associatedContent": [
+    "https://www.youtube.com/watch?v=RnIOyeooSWU&time_continue=0&source_ve_path=MjM4NTE&embeds_referring_euri=https%3A%2F%2Fserver.castcrafter.de%2F&embeds_referring_origin=https%3A%2F%2Fserver.castcrafter.de"
+  ],
+  "active": false,
+  "done": true
+}
