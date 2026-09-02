@@ -12,7 +12,9 @@ data class EventData(
     val endDate: Instant,
     val gameServerIds: List<SerializableUUID>,
     val playtimeServer: String,
-    val stats: EventStats
+    val stats: EventStats,
+    val active: Boolean,
+    val done: Boolean
 )
 
 @Serializable

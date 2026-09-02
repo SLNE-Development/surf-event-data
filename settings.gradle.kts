@@ -10,3 +10,4 @@ plugins {
     id("dev.slne.surf.api.gradle.settings") version "+"
 }
 include("surf-event-data-source")
+include("surf-event-data-example")

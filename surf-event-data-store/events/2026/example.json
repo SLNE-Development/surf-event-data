@@ -10,5 +10,7 @@
   "stats": {
     "uniquePlayers": 100,
     "peakPlayers": 200
-  }
+  },
+  "active": false,
+  "done": false
 }
