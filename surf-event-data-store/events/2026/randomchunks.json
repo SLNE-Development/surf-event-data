@@ -13,6 +13,6 @@
   },
   "associatedContent": [],
   "active": false,
-  "done": false,
+  "done": true,
   "_placeholderNote": "Nur Platzhalter, noch nicht gepflegt: description, startDate, endDate, gameServerIds, playtimeServer, stats.uniquePlayers, stats.peakPlayers"
 }
