@@ -4,16 +4,17 @@
   "startDate": "2024-08-01T08:00:00Z",
   "endDate": "2024-08-03T08:00:00Z",
   "gameServerIds": [
-    "???"
+    "00000000-0000-0000-0000-000000000000"
   ],
-  "playtimeServer": "???",
+  "playtimeServer": "Platzhalter",
   "stats": {
-    "uniquePlayers": "???",
-    "peakPlayers": "???"
+    "uniquePlayers": 0,
+    "peakPlayers": 0
   },
   "associatedContent": [
     "https://www.youtube.com/watch?v=h6RZ1PF8JQE"
   ],
   "active": false,
-  "done": true
+  "done": true,
+  "_placeholderNote": "Nur Platzhalter, noch nicht gepflegt: gameServerIds, playtimeServer, stats.uniquePlayers, stats.peakPlayers"
 }

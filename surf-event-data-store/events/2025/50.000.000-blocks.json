@@ -4,16 +4,17 @@
   "startDate": "2025-05-24T08:00:00Z",
   "endDate": "2025-05-25T10:00:00Z",
   "gameServerIds": [
-    "???"
+    "00000000-0000-0000-0000-000000000000"
   ],
-  "playtimeServer": "???",
+  "playtimeServer": "Platzhalter",
   "stats": {
-    "uniquePlayers": "???",
-    "peakPlayers": "???"
+    "uniquePlayers": 0,
+    "peakPlayers": 0
   },
   "associatedContent": [
     "https://www.youtube.com/watch?v=RnIOyeooSWU&time_continue=0&source_ve_path=MjM4NTE&embeds_referring_euri=https%3A%2F%2Fserver.castcrafter.de%2F&embeds_referring_origin=https%3A%2F%2Fserver.castcrafter.de"
   ],
   "active": false,
-  "done": true
+  "done": true,
+  "_placeholderNote": "Nur Platzhalter, noch nicht gepflegt: gameServerIds, playtimeServer, stats.uniquePlayers, stats.peakPlayers"
 }

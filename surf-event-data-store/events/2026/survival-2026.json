@@ -1,19 +1,20 @@
 {
   "displayName": "Survival Season 2026",
-  "description": "???",
+  "description": "Platzhalter - Beschreibung folgt.",
   "startDate": "2026-03-22T11:00:00Z",
-  "endDate": "???",
+  "endDate": "1970-01-01T00:00:00Z",
   "gameServerIds": [
-    "???"
+    "00000000-0000-0000-0000-000000000000"
   ],
-  "playtimeServer": "???",
+  "playtimeServer": "Platzhalter",
   "stats": {
-    "uniquePlayers": "???",
-    "peakPlayers": "???"
+    "uniquePlayers": 0,
+    "peakPlayers": 0
   },
   "associatedContent": [
     "https://www.youtube.com/watch?v=0wpB6hukGHk"
   ],
   "active": true,
-  "done": false
+  "done": false,
+  "_placeholderNote": "Nur Platzhalter, noch nicht gepflegt: description, endDate, gameServerIds, playtimeServer, stats.uniquePlayers, stats.peakPlayers"
 }

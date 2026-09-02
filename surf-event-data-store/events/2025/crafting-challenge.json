@@ -4,14 +4,15 @@
   "startDate": "2025-05-30T00:00:00Z",
   "endDate": "2025-09-21T00:00:00Z",
   "gameServerIds": [
-    "???"
+    "00000000-0000-0000-0000-000000000000"
   ],
-  "playtimeServer": "???",
+  "playtimeServer": "Platzhalter",
   "stats": {
-    "uniquePlayers": "???",
-    "peakPlayers": "???"
+    "uniquePlayers": 0,
+    "peakPlayers": 0
   },
   "associatedContent": [],
   "active": false,
-  "done": true
+  "done": true,
+  "_placeholderNote": "Nur Platzhalter, noch nicht gepflegt: gameServerIds, playtimeServer, stats.uniquePlayers, stats.peakPlayers"
 }

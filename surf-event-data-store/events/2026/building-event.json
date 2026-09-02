@@ -1,17 +1,18 @@
 {
   "displayName": "Vorbau-Event",
   "description": "Das Ziel des Events ist es, talentierte Builder für unser Team zu rekrutieren. Dazu veranstalten wir ein Bau-Event, bei dem du die Möglichkeit hast, dein Können unter Beweis zu stellen.",
-  "startDate": "???",
-  "endDate": "???",
+  "startDate": "1970-01-01T00:00:00Z",
+  "endDate": "1970-01-01T00:00:00Z",
   "gameServerIds": [
-    "???"
+    "00000000-0000-0000-0000-000000000000"
   ],
-  "playtimeServer": "???",
+  "playtimeServer": "Platzhalter",
   "stats": {
-    "uniquePlayers": "???",
-    "peakPlayers": "???"
+    "uniquePlayers": 0,
+    "peakPlayers": 0
   },
   "associatedContent": [],
   "active": false,
-  "done": true
+  "done": true,
+  "_placeholderNote": "Nur Platzhalter, noch nicht gepflegt: startDate, endDate, gameServerIds, playtimeServer, stats.uniquePlayers, stats.peakPlayers"
 }
