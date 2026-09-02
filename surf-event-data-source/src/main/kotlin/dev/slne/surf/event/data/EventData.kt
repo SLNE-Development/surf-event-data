@@ -13,6 +13,7 @@ data class EventData(
     val gameServerIds: List<SerializableStringUUID>,
     val playtimeServer: String,
     val stats: EventStats,
+    val associatedContent: List<String>,
     val active: Boolean,
     val done: Boolean
 )

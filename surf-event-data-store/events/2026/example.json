@@ -11,6 +11,9 @@
     "uniquePlayers": 100,
     "peakPlayers": 200
   },
+  "associatedContent": [
+    "https://example.com/"
+  ],
   "active": false,
   "done": false
 }
