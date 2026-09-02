@@ -9,6 +9,9 @@ import io.ktor.client.request.*
 import io.ktor.client.statement.*
 import io.ktor.http.*
 import io.ktor.serialization.kotlinx.json.*
+import kotlinx.coroutines.async
+import kotlinx.coroutines.awaitAll
+import kotlinx.coroutines.coroutineScope
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
@@ -35,58 +38,61 @@ internal object EventDataClient {
         client.close()
     }
 
-    suspend fun fetchEvents(): List<EventData> {
-        return fetchDirectory(GITHUB_PATH)
+    suspend fun fetchEvents(): List<EventData> = coroutineScope {
+        fetchDirectory(GITHUB_PATH)
             .filter { it.type == "file" && it.name.endsWith(".json") }
-            .mapNotNull { file ->
-                val downloadUrl = file.downloadUrl ?: return@mapNotNull null
+            .map { file ->
+                async {
+                    val downloadUrl = file.downloadUrl ?: return@async null
 
-                runCatching {
-                    val eventResponse = client.get(downloadUrl)
+                    runCatching {
+                        val eventResponse = client.get(downloadUrl)
 
-                    if (!eventResponse.status.isSuccess()) {
-                        println(
-                            "[surf-event-data/EventDataClient]: Failed to fetch event data from " +
-                                    "$downloadUrl: ${eventResponse.status}"
-                        )
-                        return@runCatching null
-                    }
+                        if (!eventResponse.status.isSuccess()) {
+                            println(
+                                "[surf-event-data/EventDataClient]: Failed to fetch event data from " +
+                                        "$downloadUrl: ${eventResponse.status}"
+                            )
+                            return@runCatching null
+                        }
 
-                    json.decodeFromString<EventData>(eventResponse.bodyAsText())
-                }.onFailure {
-                    println("Failed to parse ${file.name}:")
-                    it.printStackTrace()
-                }.getOrNull()
+                        json.decodeFromString<EventData>(eventResponse.bodyAsText())
+                    }.onFailure {
+                        println("Failed to parse ${file.name}:")
+                        it.printStackTrace()
+                    }.getOrNull()
+                }
             }
+            .awaitAll()
+            .filterNotNull()
     }
 
-    private suspend fun fetchDirectory(path: String): List<GitHubFile> {
+    private suspend fun fetchDirectory(path: String): List<GitHubFile> = coroutineScope {
         val response = runCatching {
             client.get(
                 "https://api.github.com/repos/$GITHUB_OWNER/$GITHUB_REPOSITORY/contents/$path?ref=$GITHUB_BRANCH"
             )
-        }.getOrNull() ?: return emptyList()
+        }.getOrNull() ?: return@coroutineScope emptyList()
 
         if (!response.status.isSuccess()) {
-            return emptyList()
+            return@coroutineScope emptyList()
         }
 
         val entries = runCatching {
             response.body<List<GitHubFile>>()
         }.getOrElse {
-            return emptyList()
+            return@coroutineScope emptyList()
         }
 
-        val files = mutableListOf<GitHubFile>()
-
-        for (entry in entries) {
-            when (entry.type) {
-                "file" -> files += entry
-                "dir" -> files += fetchDirectory(entry.path)
+        entries.map { entry ->
+            async {
+                when (entry.type) {
+                    "file" -> listOf(entry)
+                    "dir" -> fetchDirectory(entry.path)
+                    else -> emptyList()
+                }
             }
-        }
-
-        return files
+        }.awaitAll().flatten()
     }
 
     @Serializable
