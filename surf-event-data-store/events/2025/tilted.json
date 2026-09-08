@@ -1,0 +1,20 @@
+{
+  "displayName": "Tilted World",
+  "description": "Im Tilted-World-Event findest du dich in einer Welt wieder, die um 45 Grad gedreht ist.<br>Bilde Allianzen, baue gedrehte Häuser und erkunde die Höhlen, in denen nichts mehr so ist wie sonst!",
+  "startDate": "2025-01-26T15:00:00Z",
+  "endDate": "2025-01-28T15:00:00Z",
+  "gameServerIds": [
+    "00000000-0000-0000-0000-000000000000"
+  ],
+  "playtimeServer": "Platzhalter",
+  "stats": {
+    "uniquePlayers": 0,
+    "peakPlayers": 0
+  },
+  "associatedContent": [
+    "https://www.youtube.com/watch?v=vmdr_0_f6e8"
+  ],
+  "active": false,
+  "done": true,
+  "_placeholderNote": "Nur Platzhalter, noch nicht gepflegt: gameServerIds, playtimeServer, stats.uniquePlayers, stats.peakPlayers"
+}

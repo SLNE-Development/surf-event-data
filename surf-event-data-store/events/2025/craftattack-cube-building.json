@@ -1,0 +1,18 @@
+{
+  "displayName": "CraftAttack-Würfel-Bau-Event",
+  "description": "Das Streamer-Projekt CraftAttack 12 neigt sich dem Ende. Das Problem ist: Das Bau-Projekt von CastCrafter, ein Würfel, ist noch nicht fertig. In diesem Event hast du die Möglichkeit, einen Teil des Würfels zu bauen.<br>Das Ziel: den CraftAttack-Würfel mithilfe der Community fertigzustellen. CastCrafter wählt am Ende die besten Würfel aus und baut diese in CraftAttack nach. Der Würfel muss die Maße 44 x 44 x 44 Blöcke haben.",
+  "startDate": "2025-04-26T00:00:00Z",
+  "endDate": "2025-05-03T00:00:00Z",
+  "gameServerIds": [
+    "00000000-0000-0000-0000-000000000000"
+  ],
+  "playtimeServer": "Platzhalter",
+  "stats": {
+    "uniquePlayers": 0,
+    "peakPlayers": 0
+  },
+  "associatedContent": [],
+  "active": false,
+  "done": true,
+  "_placeholderNote": "Nur Platzhalter, noch nicht gepflegt: gameServerIds, playtimeServer, stats.uniquePlayers, stats.peakPlayers"
+}

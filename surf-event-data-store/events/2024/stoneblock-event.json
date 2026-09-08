@@ -1,0 +1,20 @@
+{
+  "displayName": "Stoneblock Event",
+  "description": "Im Stoneblock-Event trittst du in einer speziellen Welt an, die hauptsächlich aus Stein besteht.<br>Du kannst dich durch das Abbauen von Steinen und das Finden von Ressourcen in der Welt fortbewegen und deine eigene Basis errichten. In deinem Startraum findest du eine Kiste mit nützlichen Items und einen Baum, die dir den Start erleichtern sollen.",
+  "startDate": "2024-05-26T08:00:00Z",
+  "endDate": "2024-05-28T08:00:00Z",
+  "gameServerIds": [
+    "00000000-0000-0000-0000-000000000000"
+  ],
+  "playtimeServer": "Platzhalter",
+  "stats": {
+    "uniquePlayers": 0,
+    "peakPlayers": 0
+  },
+  "associatedContent": [
+    "https://www.youtube.com/watch?v=27Z4fur1lEg"
+  ],
+  "active": false,
+  "done": true,
+  "_placeholderNote": "Nur Platzhalter, noch nicht gepflegt: gameServerIds, playtimeServer, stats.uniquePlayers, stats.peakPlayers"
+}

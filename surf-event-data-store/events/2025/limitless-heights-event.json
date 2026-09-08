@@ -1,0 +1,20 @@
+{
+  "displayName": "Limitless Heights Event",
+  "description": "Bei diesem Event spielt Höhe keine Rolle. Von gigantischen Türmen bis hin zu schwebenden Städten, die scheinbar ins Unendliche wachsen – der Kreativität sind keine Grenzen gesetzt.<br>Doch wie hoch kannst du wirklich bauen? Finde es heraus!",
+  "startDate": "2025-02-08T09:00:00Z",
+  "endDate": "2025-02-10T09:00:00Z",
+  "gameServerIds": [
+    "00000000-0000-0000-0000-000000000000"
+  ],
+  "playtimeServer": "Platzhalter",
+  "stats": {
+    "uniquePlayers": 0,
+    "peakPlayers": 0
+  },
+  "associatedContent": [
+    "https://www.youtube.com/watch?v=TtaK3spIKsY"
+  ],
+  "active": false,
+  "done": true,
+  "_placeholderNote": "Nur Platzhalter, noch nicht gepflegt: gameServerIds, playtimeServer, stats.uniquePlayers, stats.peakPlayers"
+}

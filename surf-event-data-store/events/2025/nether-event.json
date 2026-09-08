@@ -1,0 +1,20 @@
+{
+  "displayName": "Nether Event",
+  "description": "Du bist für 48 Stunden im Nether eingesperrt. Es gibt nur diese Dimension – keine Overworld, kein End!<br>Dich erwartet eine komplett neue World-Generation, vollgepackt mit unbekannten Strukturen, gefährlichen Landschaften und teilweise sogar neuen Mobs. Um dein Überleben zu sichern, kannst du dich auf die Suche nach Larry, einem neuen NPC, machen.",
+  "startDate": "2025-03-22T09:00:00Z",
+  "endDate": "2025-03-24T09:00:00Z",
+  "gameServerIds": [
+    "00000000-0000-0000-0000-000000000000"
+  ],
+  "playtimeServer": "Platzhalter",
+  "stats": {
+    "uniquePlayers": 0,
+    "peakPlayers": 0
+  },
+  "associatedContent": [
+    "https://www.youtube.com/watch?v=K5kgVaS6xRY"
+  ],
+  "active": false,
+  "done": true,
+  "_placeholderNote": "Nur Platzhalter, noch nicht gepflegt: gameServerIds, playtimeServer, stats.uniquePlayers, stats.peakPlayers"
+}

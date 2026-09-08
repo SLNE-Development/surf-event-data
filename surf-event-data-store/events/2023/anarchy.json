@@ -1,0 +1,20 @@
+{
+  "displayName": "Anarchy Event",
+  "description": "Das Anarchy-Event ist ein Event, bei dem es darum geht, in einer Welt ohne Regeln zu überleben. Das Event dauert 7 Tage und es können maximal 200 Spieler gleichzeitig auf der Welt spielen.<br>Das Ziel ist es, so lange wie möglich zu überleben und die Welt zu erkunden.",
+  "startDate": "2023-10-08T15:00:00Z",
+  "endDate": "2023-10-15T16:00:00Z",
+  "gameServerIds": [
+    "00000000-0000-0000-0000-000000000000"
+  ],
+  "playtimeServer": "Platzhalter",
+  "stats": {
+    "uniquePlayers": 0,
+    "peakPlayers": 0
+  },
+  "associatedContent": [
+    "https://www.youtube.com/watch?v=eJ3wrRLPGIs"
+  ],
+  "active": false,
+  "done": true,
+  "_placeholderNote": "Nur Platzhalter, noch nicht gepflegt: gameServerIds, playtimeServer, stats.uniquePlayers, stats.peakPlayers"
+}
