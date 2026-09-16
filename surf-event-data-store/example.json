@@ -11,6 +11,11 @@
     "uniquePlayers": 100,
     "peakPlayers": 200
   },
+  "features": {
+    "homes": false,
+    "tpa": false,
+    "spawnCommand": false
+  },
   "associatedContent": [
     "https://example.com/"
   ],

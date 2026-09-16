@@ -11,6 +11,11 @@
     "uniquePlayers": 0,
     "peakPlayers": 0
   },
+  "features": {
+    "homes": false,
+    "tpa": false,
+    "spawnCommand": false
+  },
   "associatedContent": [
     "https://www.youtube.com/watch?v=RnIOyeooSWU&time_continue=0&source_ve_path=MjM4NTE&embeds_referring_euri=https%3A%2F%2Fserver.castcrafter.de%2F&embeds_referring_origin=https%3A%2F%2Fserver.castcrafter.de"
   ],
