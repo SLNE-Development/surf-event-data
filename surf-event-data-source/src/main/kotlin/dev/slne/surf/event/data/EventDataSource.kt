@@ -1,9 +1,10 @@
 package dev.slne.surf.event.data
 
 import dev.slne.surf.event.data.client.EventDataClient
+import java.util.concurrent.ConcurrentHashMap
 
 object EventDataSource {
-    private val eventCache = mutableListOf<EventData>()
+    private val eventCache = ConcurrentHashMap.newKeySet<EventData>()
     suspend fun fetchEvents() = EventDataClient.fetchEvents()
 
     suspend fun refreshCache() {
