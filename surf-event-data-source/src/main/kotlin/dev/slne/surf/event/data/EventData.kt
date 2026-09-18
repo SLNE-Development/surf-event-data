@@ -13,6 +13,7 @@ data class EventData(
     val gameServerIds: List<SerializableStringUUID>,
     val playtimeServer: String,
     val stats: EventStats,
+    val features: FeatureData,
     val associatedContent: List<String>,
     val active: Boolean,
     val done: Boolean
@@ -22,4 +23,11 @@ data class EventData(
 data class EventStats(
     val uniquePlayers: Int,
     val peakPlayers: Int
+)
+
+@Serializable
+data class FeatureData(
+    val homes: Boolean = false,
+    val tpa: Boolean = false,
+    val spawnCommand: Boolean = false
 )
