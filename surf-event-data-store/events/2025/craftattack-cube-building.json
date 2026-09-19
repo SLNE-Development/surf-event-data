@@ -11,11 +11,7 @@
     "uniquePlayers": 0,
     "peakPlayers": 0
   },
-  "features": {
-    "homes": false,
-    "tpa": false,
-    "spawnCommand": false
-  },
+  "features": [],
   "associatedContent": [],
   "active": false,
   "done": true,

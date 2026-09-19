@@ -10,9 +10,7 @@ import io.ktor.client.request.*
 import io.ktor.client.statement.*
 import io.ktor.http.*
 import io.ktor.serialization.kotlinx.json.*
-import kotlinx.coroutines.async
-import kotlinx.coroutines.awaitAll
-import kotlinx.coroutines.coroutineScope
+import kotlinx.coroutines.*
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
@@ -62,6 +60,10 @@ internal object EventDataClient {
                         }
 
                         json.decodeFromString<EventData>(eventResponse.bodyAsText())
+                    }.onFailure {
+                        if (it is CancellationException) {
+                            ensureActive()
+                        }
                     }.onFailure {
                         println("Failed to parse ${file.name}:")
                         it.printStackTrace()

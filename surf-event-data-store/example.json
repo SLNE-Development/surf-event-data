@@ -11,11 +11,23 @@
     "uniquePlayers": 100,
     "peakPlayers": 200
   },
-  "features": {
-    "homes": false,
-    "tpa": false,
-    "spawnCommand": false
-  },
+  "features": [
+    {
+      "key": "homes",
+      "displayName": "Homes",
+      "additions": "/home"
+    },
+    {
+      "key": "tpa",
+      "displayName": "Teleportation",
+      "additions": "/tpa"
+    },
+    {
+      "key": "spawnCommand",
+      "displayName": "Spawn",
+      "additions": "/spawn"
+    }
+  ],
   "associatedContent": [
     "https://example.com/"
   ],
