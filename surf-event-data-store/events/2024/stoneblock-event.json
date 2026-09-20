@@ -11,11 +11,7 @@
     "uniquePlayers": 0,
     "peakPlayers": 0
   },
-  "features": {
-    "homes": false,
-    "tpa": false,
-    "spawnCommand": false
-  },
+  "features": [],
   "associatedContent": [
     "https://www.youtube.com/watch?v=27Z4fur1lEg"
   ],
