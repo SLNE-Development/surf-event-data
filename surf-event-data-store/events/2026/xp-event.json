@@ -7,10 +7,10 @@
     "d11ffd45-792b-4a74-95fb-6d6af18da175",
     "aa05d24a-3434-477d-b7c9-48a01f388be0"
   ],
-  "playtimeServer": "xp-event",
+  "playtimeServer": "XP Event: 100 Millionen XP",
   "stats": {
-    "uniquePlayers": 0,
-    "peakPlayers": 0
+    "uniquePlayers": 1169,
+    "peakPlayers": 200
   },
   "features": [
     {
@@ -32,6 +32,6 @@
   "associatedContent": [
     "https://docs.castcrafter.de/xp-event"
   ],
-  "active": true,
-  "done": false
+  "active": false,
+  "done": true
 }
