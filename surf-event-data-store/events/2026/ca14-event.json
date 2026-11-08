@@ -1,0 +1,37 @@
+{
+  "displayName": "CraftAttack-Ölbohrinsel-Bau-Event",
+  "description": "Deine Kreativität ist wieder gefragt! Heikos Base in CraftAttack 14 ist eine Ölbohrinsel und dafür sucht er deine Ideen. Entwirf eigene Module und Details, die die Bohrinsel ergänzen und noch lebendiger machen.<br>Vielleicht greift Heiko am Ende genau deinen Entwurf auf und setzt ihn in CraftAttack 14 um. Am Spawn kannst du dir die Ölbohrinsel aus nächster Nähe ansehen und Inspiration sammeln.",
+  "startDate": "2026-11-08T00:00:00Z",
+  "endDate": "1970-01-01T00:00:00Z",
+  "gameServerIds": [
+    "94437880-e55f-4142-a11b-7ef5686e6103"
+  ],
+  "playtimeServer": "ca14-event",
+  "stats": {
+    "uniquePlayers": 0,
+    "peakPlayers": 0
+  },
+  "features": [
+    {
+      "key": "plotClaim",
+      "displayName": "Grundstück beanspruchen",
+      "additions": "/p auto, /p claim"
+    },
+    {
+      "key": "homes",
+      "displayName": "Homes",
+      "additions": "/home"
+    },
+    {
+      "key": "spawnCommand",
+      "displayName": "Spawn",
+      "additions": "/spawn"
+    }
+  ],
+  "associatedContent": [
+    "https://docs.castcrafter.de/ca14-event"
+  ],
+  "active": true,
+  "done": false,
+  "_placeholderNote": "Nur Platzhalter, noch nicht gepflegt: endDate"
+}
